@@ -1,0 +1,5 @@
+pyspark==4.2.0
+numpy
+pandas<3
+pyarrow>=18
+matplotlib

@@ -1,0 +1,6 @@
+# Fichiers inutiles pour construire l'image (le projet est partagé au lancement)
+data/
+**/outputs/
+**/__pycache__/
+.venv/
+.git/

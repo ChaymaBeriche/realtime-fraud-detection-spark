@@ -1,0 +1,13 @@
+services:
+  spark:
+    build: .
+    image: fraud-detection-spark
+    volumes:
+      - .:/app                         # le dossier du projet est partagé avec le conteneur
+      - stream-data:/app/data/stream   # fichiers temporaires du flux (phase 6) dans un volume Docker :
+                                       # beaucoup plus rapide que le dossier Windows pour les petits fichiers
+    ports:
+      - "4040:4040"                    # interface web de Spark : http://localhost:4040
+
+volumes:
+  stream-data:                         # partagé par le simulateur, la détection et le rapport

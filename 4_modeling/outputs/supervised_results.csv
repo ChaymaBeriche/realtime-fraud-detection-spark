@@ -1,0 +1,19 @@
+family,setting,weights,auc_pr,auc_roc,seconds
+logistic_regression,regParam=0.0,sans poids,0.48759,0.97041,13.49566
+logistic_regression,regParam=0.0,avec poids,0.58933,0.97334,9.09328
+logistic_regression,regParam=0.01,sans poids,0.62125,0.97133,5.43089
+logistic_regression,regParam=0.01,avec poids,0.52174,0.96781,6.02506
+logistic_regression,regParam=0.1,sans poids,0.61896,0.97614,5.50427
+logistic_regression,regParam=0.1,avec poids,0.56381,0.96165,5.44433
+random_forest,"numTrees=100, maxDepth=5",sans poids,0.75065,0.96791,18.28908
+random_forest,"numTrees=100, maxDepth=5",avec poids,0.69993,0.97936,18.83484
+random_forest,"numTrees=100, maxDepth=10",sans poids,0.65199,0.97604,40.52967
+random_forest,"numTrees=100, maxDepth=10",avec poids,0.73767,0.96017,39.67932
+gbt,"maxIter=50, maxDepth=3",sans poids,0.69094,0.97348,21.07909
+gbt,"maxIter=50, maxDepth=3",avec poids,0.45611,0.98024,21.35996
+gbt,"maxIter=50, maxDepth=5",sans poids,0.54906,0.93314,28.42578
+gbt,"maxIter=50, maxDepth=5",avec poids,0.43279,0.92774,28.09460
+gbt,"maxIter=100, maxDepth=3",sans poids,0.70744,0.95364,37.98496
+gbt,"maxIter=100, maxDepth=3",avec poids,0.48325,0.98061,37.70008
+gbt,"maxIter=100, maxDepth=5",sans poids,0.55331,0.94910,52.30190
+gbt,"maxIter=100, maxDepth=5",avec poids,0.41083,0.92256,53.58997

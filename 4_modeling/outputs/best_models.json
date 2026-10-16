@@ -1,0 +1,23 @@
+{
+  "logistic_regression": {
+    "setting": "regParam=0.01",
+    "weights": "sans poids",
+    "auc_pr": 0.6212466762604675,
+    "auc_roc": 0.9713332410195088,
+    "path": "models/logistic_regression"
+  },
+  "random_forest": {
+    "setting": "numTrees=100, maxDepth=5",
+    "weights": "sans poids",
+    "auc_pr": 0.7506453261736903,
+    "auc_roc": 0.9679054684332326,
+    "path": "models/random_forest"
+  },
+  "gbt": {
+    "setting": "maxIter=100, maxDepth=3",
+    "weights": "sans poids",
+    "auc_pr": 0.7074442072098289,
+    "auc_roc": 0.9536422916713314,
+    "path": "models/gbt"
+  }
+}
